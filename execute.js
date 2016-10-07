@@ -87,6 +87,7 @@ export default function execute(width, height, robots) {
       pos,
       dir,
       lost,
+      // The remaining instructions if the robot is lost.
       ins: ins.slice(i),
     };
   });
