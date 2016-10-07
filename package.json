@@ -1,0 +1,17 @@
+{
+  "name": "red-badger-challenge",
+  "private": true,
+  "scripts": {
+    "start": "babel-node main.js"
+  },
+  "dependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-plugin-transform-object-rest-spread": "^6.16.0",
+    "babel-preset-latest": "^6.16.0",
+    "flow-bin": "^0.33.0"
+  },
+  "babel": {
+    "presets": ["latest"],
+    "plugins": ["transform-object-rest-spread"]
+  }
+}
